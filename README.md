@@ -1,6 +1,7 @@
 # RedLock.net
 
 [![Build status](https://ci.appveyor.com/api/projects/status/g8txg7v6ju286gks?svg=true)](https://ci.appveyor.com/project/RachelAmbler/redlock-net)
+[![GitHub](https://img.shields.io/github/license/rachelambler/RedLock.net.svg)](LICENSE) 
 
 An implementation of the [Redlock distributed lock algorithm](http://redis.io/topics/distlock) in C#.
 
