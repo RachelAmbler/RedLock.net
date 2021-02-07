@@ -1,7 +1,9 @@
 # RedLock.net
 
 [![Build status](https://ci.appveyor.com/api/projects/status/g8txg7v6ju286gks?svg=true)](https://ci.appveyor.com/project/RachelAmbler/redlock-net)
-[![GitHub](https://img.shields.io/github/license/rachelambler/RedLock.net.svg)](LICENSE) 
+[![GitHub](https://img.shields.io/github/license/rachelambler/RedLock.net.svg)](LICENSE)
+[![NuGet](https://img.shields.io/nuget/dt/RAmbler-RedLock.net.svg)](https://www.nuget.org/packages/RAmbler-RedLock.net)
+[![GitHub release](https://img.shields.io/github/release/rachelambler/RedLock.net.svg?logo=github&logoColor=cccccc)](https://github.com/rachelambler/RedLock.net/releases) [![GitHub release](https://img.shields.io/github/release/rachelambler/RedLock.net/all.svg?label=pre-release&logo=github&logoColor=cccccc)](https://github.com/rachelambler/RedLock.net/releases)
 
 An implementation of the [Redlock distributed lock algorithm](http://redis.io/topics/distlock) in C#.
 
