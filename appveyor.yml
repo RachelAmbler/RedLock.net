@@ -20,11 +20,9 @@ before_test:
     Start-Sleep 5
 deploy:
   provider: NuGet
-  server:                  # remove to push to NuGet.org
   api_key:
     secure: SPUtzPBylaAilHhJjIlaRc/M69eaB4vYNNv5iu5pwy8vSjpCuatTGaPRWuFq5Q3W
   skip_symbols: false
-  symbol_server:           # remove to push symbols to SymbolSource.org
   artifact: /.*(\.|\.s)nupkg/
 artifacts:
 - path: '**\.nupkgs\*.nupkg'
