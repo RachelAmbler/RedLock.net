@@ -3,13 +3,13 @@
 		<AssemblyVersion>2.2.0.0</AssemblyVersion>
 		<Version>2.2.0</Version>
 		<FileVersion>$(Version)</FileVersion>
-		<Authors>Sam Cook</Authors>
+		<Authors>Original code by Sam Cook, fork by Rachel Ambler</Authors>
 		<Company />
-		<Product>RedLock.net</Product>
-		<Copyright>Copyright $([System.DateTime]::Now.Year) Sam Cook</Copyright>
+		<Product>Rambler-RedLock.net</Product>
+		<Copyright>Copyright $([System.DateTime]::Now.Year)</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageProjectUrl>https://github.com/samcook/RedLock.net</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/samcook/RedLock.net</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/rachelambler/RedLock.net</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/rachelambler/RedLock.net</RepositoryUrl>
 		<PackageIcon>redlock-icon.png</PackageIcon>
 		<PackageIconUrl>https://raw.githubusercontent.com/samcook/RedLock.net/master/redlock-icon.png</PackageIconUrl>
 		<RepositoryType>git</RepositoryType>
