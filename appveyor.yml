@@ -19,31 +19,27 @@ before_test:
 
     Start-Sleep 5
     
-deploy:
+ deploy:
   - provider: NuGet
     artifact: /.*(\.|\.s)nupkg/
     skip_symbols: false
     draft: false
     prerelease: false
-    
     api_key:
       secure: SPUtzPBylaAilHhJjIlaRc/M69eaB4vYNNv5iu5pwy8vSjpCuatTGaPRWuFq5Q3W
-  on:
-    branch: master                 
-- provider: GitHub
+    on:
+      branch: master                 
+  - provider: GitHub
     artifact: /.*\.nupkg/            # upload all NuGet packages to release assets
     skip_symbols: false
     draft: false
     prerelease: false
-    
     release: rambler-RedLock.net_v2.2.0 #$(APPVEYOR_BUILD_VERSION)
     description: 'Release 2.2.0'
-
     auth_token:
       secure: Gzl0nT3qtwEzm1LrgWLZxhEm9VoSOr9mSOiwowlCsFAc2v2Eprle3ZBQa32nbXGB # your encrypted token from GitHub
-    
     on:
       branch: master                 # release from master branch only
     
 artifacts:
-- path: '**\.nupkgs\*.nupkg'
+  path: '**\.nupkgs\*.nupkg'
