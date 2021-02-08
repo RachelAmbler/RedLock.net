@@ -19,7 +19,7 @@ before_test:
 
     Start-Sleep 5
     
- deploy:
+deploy:
   - provider: NuGet
     artifact: /.*(\.|\.s)nupkg/
     skip_symbols: false
